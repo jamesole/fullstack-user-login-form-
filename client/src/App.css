@@ -1,0 +1,106 @@
+form {
+  margin-left: 30px;
+  
+  margin-right: 30px;
+  padding: 20px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: pink;
+}
+
+label {
+  color: white;
+  font-weight: thin;
+}
+
+.form-control:focus {
+  border-color: rgba(255, 0, 0, 0.5);
+  box-shadow: 0px 2px 2px 0px rgb(246, 166, 179);
+}
+
+.form-group {
+  padding: 3.5px;
+}
+
+h2 {
+  background-color: rgb(223, 71, 89);
+  padding: 5px;
+  border-radius: 5%;
+  color: white;
+}
+
+button#submit {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+button#submit:active {
+  cursor: pointer;
+}
+
+#getBtn {
+  color: white;
+  font-weight: 600;
+  background-color: rgb(223, 71, 89);;
+}
+#getBtn:active {
+  cursor: pointer;
+}
+
+.listDiv {
+  margin-left: 30px;
+  
+  margin-right: 30px;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#getUsers {
+  padding: 7px;
+}
+
+.middle {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+ul {
+  background-color: pink;
+  width: 600px;
+  margin: 0 auto;
+  color: white;
+  border: 2px solid rgb(223, 71, 89);
+  border-radius: 5%;
+  margin-bottom: 25px;
+}
+
+.bland {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.bland:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(223, 71, 89);
+}
+
+.bland:active {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(202, 16, 38);
+}
